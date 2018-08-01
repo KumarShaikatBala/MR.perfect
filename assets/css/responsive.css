@@ -1,0 +1,150 @@
+/*******************************
+	All Responsive Code
+*******************************/
+@media screen and (max-width: 40em) {
+    /* #menu is the original menu */
+    .js #menu {
+        display:none;
+        position: fixed;
+    }
+
+    .js .slicknav_menu {
+        display:block;
+    }
+}
+
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+    padding: 5px 10px;
+    margin: 2px 5px;
+    text-transform: uppercase;
+}
+.slicknav_menu {
+    *zoom: 1;
+    font-size: 16px;
+    background-image: url("../img/slider.jpg");
+    padding: 5px;
+}
+/*******************************
+	Media Quary Code
+*******************************/
+@media (max-width: 767px) {
+    .header-main {
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+.sidebar{
+    display: block;
+}
+    ul li a{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .header-content{
+        padding-top: 0;
+    }
+    .single-img{
+        display: none;
+    }
+    .header-content a{
+        margin-top: 10px;
+    }
+    .single-about {
+        padding-top: 25px;
+    }
+    .about-right {
+        margin-top: 25px;
+    }
+
+    button.mixitup-control-active {
+        color: #00aeef;
+        border-bottom: none;
+        padding-bottom: 0;
+
+    }
+    .filter-bar {
+        display: none;
+    }
+
+
+
+    .portfolio-item-hover{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .portfolio-item-hover h5{
+        padding: 0;
+    }
+    .portfolio-item-hover h6{
+        padding: 0;
+    }
+    .portfolio-item a{
+        margin: 0;
+        padding: 0;
+    }
+
+    .shape,.rectangle{
+        visibility: hidden;
+    }
+}
+@media (max-width: 1200px) {
+    .main-menu ul li a {
+        padding: 5px 4px;
+    }
+    .logo{
+        padding: 0;
+    }
+    .single-details ul li a {
+        width: 20px;
+        height: 20px;
+        line-height: 18px;
+        margin: 11px 2px;
+    }
+    .single-details {
+        top: 51%;
+    }
+    .portfolio-item-hover{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%
+    }
+    .portfolio-item-hover h5{
+        padding: 0;
+    }
+    .portfolio-item-hover h6{
+        padding: 0;
+    }
+    .portfolio-item a {
+        margin-right: 8px;
+        margin-left: 8px;
+        padding: 0px 5px 0px 5px;
+    }
+    .portfolio-item{
+        /*margin-top: 30px;*/
+        margin-right: 0;
+        position: relative;
+        transition: .3s;
+    }
+}
+@media (max-width: 992px) {
+    .single-details {
+        top: 40%;
+    }
+    .single-details ul li a {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin: 8px 2px;
+        font-size: smaller;
+    }
+    .filter-bar {
+        display: none;
+    }
+
+
+}
